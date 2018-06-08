@@ -5,7 +5,7 @@
         "navigationBarBackgroundColor": "#fff",
         "navigationBarTitleText": "small routine test",
         "navigationBarTextStyle": "black",
-        "enablePullDownRefresh": "true",
+        "enablePullDownRefresh": true,
         "onReachBottomDistance": 100
     }
 }
