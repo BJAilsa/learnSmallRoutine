@@ -1,0 +1,5 @@
+<view id="item-{{id}}" wx:if="{{condition}}">{{message}}</view>
+<checkbox checked="{{true}}"></checkbox>
+<view hidden="{{flag ? true : false}}">Hidden</view>
+<view>{{a+b}} + {{c}} +d</view>
+<view wx:if="{{length > 5}}">逻辑判断</view>

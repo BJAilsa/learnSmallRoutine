@@ -1,5 +1,5 @@
 {
-    "pages": ["pages/index/index"],
+    "pages": ["pages/index/index","pages/wxmlg/wxmlg"],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
@@ -7,5 +7,14 @@
         "navigationBarTextStyle": "black",
         "enablePullDownRefresh": true,
         "onReachBottomDistance": 100
+    },
+    "tabBar": {
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "首页"
+        },{
+            "pagePath": "pages/wxmlg/wxmlg",
+            "text": "wxml语法"
+        }]
     }
 }
